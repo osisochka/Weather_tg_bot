@@ -10,7 +10,7 @@ async def set_commands(bot: Bot):
     commands = [
         BotCommand(command="/start", description="Приветствие"),
         BotCommand(command="/help", description="Список доступных команд"),
-        BotCommand(command="/weather", description="Прогноз погоды по маршруту")
+        BotCommand(command="/weather", description="Прогноз погоды по маршруту"),
     ]
     await bot.set_my_commands(commands)
 
